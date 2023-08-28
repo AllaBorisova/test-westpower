@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Westpower</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/normalize.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <div class="page">
+    <div class="container">
+      <h1 class="title">профиль и интересы</h1>
+      <div class="text-info">Здесь вы можете изменять свой email и пароль, а также указать дополнительные номера
+        телефонов
+        для использован ия вашей карты и указать свои интересы</div>
+      <form class="form" action="">
+        <div class="grid-columns-3">
+          <div class="form__block">
+            <div class="form__label">
+              <span>Email</span>
+              <div class="form__badge">+2%</div>
+            </div>
+            <input class="form__input" type="email" name="email" value="" placeholder="ivan@mail.ru">
+            <div class="form__action form__action_save">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M15.5631 15.3296C15.8736 15.3296 16.1256 15.5816 16.1256 15.8921C16.1256 16.2026 15.8736 16.4546 15.5631 16.4546H10.1233C9.81283 16.4546 9.56083 16.2026 9.56083 15.8921C9.56083 15.5816 9.81283 15.3296 10.1233 15.3296H15.5631ZM12.0874 2.74017C12.1249 2.76942 13.3797 3.74442 13.3797 3.74442C13.8357 4.01592 14.1919 4.50117 14.3269 5.07567C14.4612 5.64417 14.3637 6.23067 14.0509 6.72642C14.0488 6.72973 14.0468 6.73299 14.0395 6.74271L14.0339 6.75022C13.9831 6.81713 13.7624 7.09617 12.6486 8.49161C12.6383 8.5099 12.6266 8.52703 12.6138 8.54367C12.595 8.5682 12.5746 8.59076 12.5527 8.61129C12.4768 8.70694 12.3965 8.80745 12.3122 8.91312L12.1412 9.12722C11.7885 9.56895 11.3701 10.0928 10.8738 10.714L10.619 11.0329C9.66078 12.2322 8.43355 13.7679 6.86143 15.7347C6.51718 16.1637 6.00118 16.4134 5.44693 16.4202L2.71768 16.4547H2.71018C2.44993 16.4547 2.22343 16.2762 2.16268 16.0219L1.54843 13.4187C1.42168 12.8794 1.54768 12.3229 1.89343 11.8909L8.95843 3.05442C8.96143 3.05142 8.96368 3.04767 8.96668 3.04467C9.74143 2.11842 11.1424 1.98192 12.0874 2.74017ZM8.17072 5.84019L2.77168 12.5937C2.64343 12.7542 2.59618 12.9612 2.64343 13.1599L3.15418 15.3237L5.43343 15.2952C5.65018 15.2929 5.85043 15.1962 5.98318 15.0312C6.66679 14.1759 7.52597 13.1008 8.40932 11.9955L8.72185 11.6044L9.0349 11.2126C9.86334 10.1759 10.6818 9.15149 11.3666 8.29409L8.17072 5.84019ZM9.83293 3.76242L8.87347 4.96119L12.0691 7.41439C12.6841 6.64396 13.0888 6.13654 13.1262 6.08817C13.2492 5.88867 13.2972 5.60667 13.2327 5.33517C13.1667 5.05692 12.9934 4.82067 12.7437 4.66992C12.6904 4.63317 11.4267 3.65217 11.3877 3.62142C10.9122 3.24042 10.2184 3.30642 9.83293 3.76242Z"
+                  fill="#000000" />
+              </svg>
+              сохранить
+            </div>
+          </div>
+          <div class="form__block">
+            <div class="form__label">
+              <span>Пароль</span>
+            </div>
+            <input class="form__input" type="password" name="password" value="" placeholder="*****">
+            <div class="form__action form__action_change">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M15.5631 15.3296C15.8736 15.3296 16.1256 15.5816 16.1256 15.8921C16.1256 16.2026 15.8736 16.4546 15.5631 16.4546H10.1233C9.81283 16.4546 9.56083 16.2026 9.56083 15.8921C9.56083 15.5816 9.81283 15.3296 10.1233 15.3296H15.5631ZM12.0874 2.74017C12.1249 2.76942 13.3797 3.74442 13.3797 3.74442C13.8357 4.01592 14.1919 4.50117 14.3269 5.07567C14.4612 5.64417 14.3637 6.23067 14.0509 6.72642C14.0488 6.72973 14.0468 6.73299 14.0395 6.74271L14.0339 6.75022C13.9831 6.81713 13.7624 7.09617 12.6486 8.49161C12.6383 8.5099 12.6266 8.52703 12.6138 8.54367C12.595 8.5682 12.5746 8.59076 12.5527 8.61129C12.4768 8.70694 12.3965 8.80745 12.3122 8.91312L12.1412 9.12722C11.7885 9.56895 11.3701 10.0928 10.8738 10.714L10.619 11.0329C9.66078 12.2322 8.43355 13.7679 6.86143 15.7347C6.51718 16.1637 6.00118 16.4134 5.44693 16.4202L2.71768 16.4547H2.71018C2.44993 16.4547 2.22343 16.2762 2.16268 16.0219L1.54843 13.4187C1.42168 12.8794 1.54768 12.3229 1.89343 11.8909L8.95843 3.05442C8.96143 3.05142 8.96368 3.04767 8.96668 3.04467C9.74143 2.11842 11.1424 1.98192 12.0874 2.74017ZM8.17072 5.84019L2.77168 12.5937C2.64343 12.7542 2.59618 12.9612 2.64343 13.1599L3.15418 15.3237L5.43343 15.2952C5.65018 15.2929 5.85043 15.1962 5.98318 15.0312C6.66679 14.1759 7.52597 13.1008 8.40932 11.9955L8.72185 11.6044L9.0349 11.2126C9.86334 10.1759 10.6818 9.15149 11.3666 8.29409L8.17072 5.84019ZM9.83293 3.76242L8.87347 4.96119L12.0691 7.41439C12.6841 6.64396 13.0888 6.13654 13.1262 6.08817C13.2492 5.88867 13.2972 5.60667 13.2327 5.33517C13.1667 5.05692 12.9934 4.82067 12.7437 4.66992C12.6904 4.63317 11.4267 3.65217 11.3877 3.62142C10.9122 3.24042 10.2184 3.30642 9.83293 3.76242Z"
+                  fill="#000000" />
+              </svg>
+              Изменить
+            </div>
+          </div>
+        </div>
+      </form>
+      <hr class="hr">
+      <h2 class="title">дополнительные контактные телефоны</h2>
+      <div class="text-info">Вы можете добавить до двух дополнительных номеров телефона.
+        Указанные номера могут быть использованы членами вашей семьи для получения скидки, накопления баллов и покупок
+        по
+        вашей карте</div>
+      <form class="form" action="">
+        <div class="grid-columns-3">
+          <div class="form__block">
+            <div class="form__label">
+              <span>Телефон 1</span>
+            </div>
+            <input class="form__input" type="tel" id="phone" name="phone1" value="" placeholder="+7(___)___-____">
+            <div class="form__action form__action_save">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M15.5631 15.3296C15.8736 15.3296 16.1256 15.5816 16.1256 15.8921C16.1256 16.2026 15.8736 16.4546 15.5631 16.4546H10.1233C9.81283 16.4546 9.56083 16.2026 9.56083 15.8921C9.56083 15.5816 9.81283 15.3296 10.1233 15.3296H15.5631ZM12.0874 2.74017C12.1249 2.76942 13.3797 3.74442 13.3797 3.74442C13.8357 4.01592 14.1919 4.50117 14.3269 5.07567C14.4612 5.64417 14.3637 6.23067 14.0509 6.72642C14.0488 6.72973 14.0468 6.73299 14.0395 6.74271L14.0339 6.75022C13.9831 6.81713 13.7624 7.09617 12.6486 8.49161C12.6383 8.5099 12.6266 8.52703 12.6138 8.54367C12.595 8.5682 12.5746 8.59076 12.5527 8.61129C12.4768 8.70694 12.3965 8.80745 12.3122 8.91312L12.1412 9.12722C11.7885 9.56895 11.3701 10.0928 10.8738 10.714L10.619 11.0329C9.66078 12.2322 8.43355 13.7679 6.86143 15.7347C6.51718 16.1637 6.00118 16.4134 5.44693 16.4202L2.71768 16.4547H2.71018C2.44993 16.4547 2.22343 16.2762 2.16268 16.0219L1.54843 13.4187C1.42168 12.8794 1.54768 12.3229 1.89343 11.8909L8.95843 3.05442C8.96143 3.05142 8.96368 3.04767 8.96668 3.04467C9.74143 2.11842 11.1424 1.98192 12.0874 2.74017ZM8.17072 5.84019L2.77168 12.5937C2.64343 12.7542 2.59618 12.9612 2.64343 13.1599L3.15418 15.3237L5.43343 15.2952C5.65018 15.2929 5.85043 15.1962 5.98318 15.0312C6.66679 14.1759 7.52597 13.1008 8.40932 11.9955L8.72185 11.6044L9.0349 11.2126C9.86334 10.1759 10.6818 9.15149 11.3666 8.29409L8.17072 5.84019ZM9.83293 3.76242L8.87347 4.96119L12.0691 7.41439C12.6841 6.64396 13.0888 6.13654 13.1262 6.08817C13.2492 5.88867 13.2972 5.60667 13.2327 5.33517C13.1667 5.05692 12.9934 4.82067 12.7437 4.66992C12.6904 4.63317 11.4267 3.65217 11.3877 3.62142C10.9122 3.24042 10.2184 3.30642 9.83293 3.76242Z"
+                  fill="#000000" />
+              </svg>
+              сохранить
+            </div>
+          </div>
+          <div class="form__block">
+            <div class="form__label">
+              <span>Телефон 2</span>
+            </div>
+            <input class="form__input" type="tel" name="phone2" value="" placeholder="+7(___)___-____">
+            <div class="form__action form__action_change">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M15.5631 15.3296C15.8736 15.3296 16.1256 15.5816 16.1256 15.8921C16.1256 16.2026 15.8736 16.4546 15.5631 16.4546H10.1233C9.81283 16.4546 9.56083 16.2026 9.56083 15.8921C9.56083 15.5816 9.81283 15.3296 10.1233 15.3296H15.5631ZM12.0874 2.74017C12.1249 2.76942 13.3797 3.74442 13.3797 3.74442C13.8357 4.01592 14.1919 4.50117 14.3269 5.07567C14.4612 5.64417 14.3637 6.23067 14.0509 6.72642C14.0488 6.72973 14.0468 6.73299 14.0395 6.74271L14.0339 6.75022C13.9831 6.81713 13.7624 7.09617 12.6486 8.49161C12.6383 8.5099 12.6266 8.52703 12.6138 8.54367C12.595 8.5682 12.5746 8.59076 12.5527 8.61129C12.4768 8.70694 12.3965 8.80745 12.3122 8.91312L12.1412 9.12722C11.7885 9.56895 11.3701 10.0928 10.8738 10.714L10.619 11.0329C9.66078 12.2322 8.43355 13.7679 6.86143 15.7347C6.51718 16.1637 6.00118 16.4134 5.44693 16.4202L2.71768 16.4547H2.71018C2.44993 16.4547 2.22343 16.2762 2.16268 16.0219L1.54843 13.4187C1.42168 12.8794 1.54768 12.3229 1.89343 11.8909L8.95843 3.05442C8.96143 3.05142 8.96368 3.04767 8.96668 3.04467C9.74143 2.11842 11.1424 1.98192 12.0874 2.74017ZM8.17072 5.84019L2.77168 12.5937C2.64343 12.7542 2.59618 12.9612 2.64343 13.1599L3.15418 15.3237L5.43343 15.2952C5.65018 15.2929 5.85043 15.1962 5.98318 15.0312C6.66679 14.1759 7.52597 13.1008 8.40932 11.9955L8.72185 11.6044L9.0349 11.2126C9.86334 10.1759 10.6818 9.15149 11.3666 8.29409L8.17072 5.84019ZM9.83293 3.76242L8.87347 4.96119L12.0691 7.41439C12.6841 6.64396 13.0888 6.13654 13.1262 6.08817C13.2492 5.88867 13.2972 5.60667 13.2327 5.33517C13.1667 5.05692 12.9934 4.82067 12.7437 4.66992C12.6904 4.63317 11.4267 3.65217 11.3877 3.62142C10.9122 3.24042 10.2184 3.30642 9.83293 3.76242Z"
+                  fill="#000000" />
+              </svg>
+              Изменить
+            </div>
+          </div>
+        </div>
+      </form>
+      <hr class="hr">
+      <h2 class="title">ПОДПИСКА НА УВЕЛИЧЕННУЮ СКИДКУ</h2>
+      <div class="text-info">Вы можете выбрать один магазин для предоставления увеличенной скидки. Выбор можно сделать
+        не
+        более 1 раза в месяц. По истечению календарного месяца скидка будет обнулена автоматически</div>
+      <form class="form" action="">
+        <div class="grid-columns-3">
+          <input id="select-subscribe" hidden name="select-subscribe" value="">
+          <div class="dropdown merge-columns-2" id="dropdown">
+            <span class="dropdown__anchor" id="dropdown__anchor">Выберите магазин
+              <svg xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
+                <path d="M7.3181 5L0 5L3.65905 0L7.3181 5Z" fill="#B7B7B7" />
+              </svg>
+            </span>
+            <ul class="dropdown__items" id="dropdown__items">
+              <li>
+                <label class="custom-checkbox">
+                  <input class="custom-checkbox__checkbox" type="checkbox" name="" value="1">
+                  <span class="custom-checkbox__span"></span>
+                  <span class="custom-checkbox__label">
+                    <img src="./img/tommy.svg" alt="">
+                  </span>
+                </label>
+              </li>
+              <li>
+                <label class="custom-checkbox">
+                  <input class="custom-checkbox__checkbox" type="checkbox" name="" value="2">
+                  <span class="custom-checkbox__span"></span>
+                  <span class="custom-checkbox__label">
+                    <img src="./img/ck.svg" alt="">
+                  </span>
+                </label>
+              </li>
+              <li>
+                <label class="custom-checkbox">
+                  <input class="custom-checkbox__checkbox" type="checkbox" name="" value="3">
+                  <span class="custom-checkbox__span"></span>
+                  <span class="custom-checkbox__label">
+                    <img src="./img/shop3.svg" alt="">
+                  </span>
+                </label>
+              </li>
+              <li>
+                <label class="custom-checkbox">
+                  <input class="custom-checkbox__checkbox" type="checkbox" name="" value="4">
+                  <span class="custom-checkbox__span"></span>
+                  <span class="custom-checkbox__label">
+                    <img src="./img/inwear.svg" alt="">
+                  </span>
+                </label>
+              </li>
+
+              <li>
+                <label class="custom-checkbox">
+                  <input class="custom-checkbox__checkbox" type="checkbox" name="" value="5">
+                  <span class="custom-checkbox__span"></span>
+                  <span class="custom-checkbox__label">
+                    <img src="./img/clarks.svg" alt="">
+                  </span>
+                </label>
+              </li>
+              <li>
+                <label class="custom-checkbox">
+                  <input class="custom-checkbox__checkbox" type="checkbox" name="" value="6">
+                  <span class="custom-checkbox__span"></span>
+                  <span class="custom-checkbox__label">
+                    <img src="./img/reima.svg" alt="">
+                  </span>
+                </label>
+              </li>
+
+              <li>
+                <label class="custom-checkbox">
+                  <input class="custom-checkbox__checkbox" type="checkbox" name="" value="7">
+                  <span class="custom-checkbox__span"></span>
+                  <span class="custom-checkbox__label">
+                    <img src="./img/markis.svg" alt="">
+                  </span>
+                </label>
+              </li>
+              <li>
+                <label class="custom-checkbox">
+                  <input class="custom-checkbox__checkbox" type="checkbox" name="" value="8">
+                  <span class="custom-checkbox__span"></span>
+                  <span class="custom-checkbox__label">
+                    <img src="./img/soho.svg" alt="">
+                  </span>
+                </label>
+              </li>
+
+              <li>
+                <label class="custom-checkbox">
+                  <input class="custom-checkbox__checkbox" type="checkbox" name="" value="9">
+                  <span class="custom-checkbox__span"></span>
+                  <span class="custom-checkbox__label">
+                    <img src="./img/mexx.svg" alt="">
+                  </span>
+                </label>
+              </li>
+              <li>
+                <label class="custom-checkbox">
+                  <input class="custom-checkbox__checkbox" type="checkbox" name="" value="10">
+                  <span class="custom-checkbox__span"></span>
+                  <span class="custom-checkbox__label">
+                    <img src="./img/truman.svg" alt="">
+                  </span>
+                </label>
+              </li>
+
+              <li>
+                <label class="custom-checkbox">
+                  <input class="custom-checkbox__checkbox" type="checkbox" name="" value="11">
+                  <span class="custom-checkbox__span"></span>
+                  <span class="custom-checkbox__label">
+                    <img src="./img/origami.svg" alt="">
+                  </span>
+                </label>
+              </li>
+
+
+            </ul>
+          </div>
+        </div>
+      </form>
+      <hr class="hr">
+      <h2 class="title">ПОДПИСКА НА УВЕДОМЛЕНИЯ ОБ АКЦИЯХ</h2>
+      <div class="text-info">Вы можете выбрать один или несколько магазинов, по которым вам интересно получать
+        предложения</div>
+      <form class="form" action="">
+        <div class="grid-columns-3">
+
+          <label class="custom-checkbox form__checkbox">
+            <input class="custom-checkbox__checkbox" type="checkbox" name="">
+            <span class="custom-checkbox__span"></span>
+            <span class="custom-checkbox__label">
+              <img src="./img/tommy.svg" alt="">
+            </span>
+          </label>
+
+
+          <label class="custom-checkbox form__checkbox">
+            <input class="custom-checkbox__checkbox" type="checkbox" name="">
+            <span class="custom-checkbox__span"></span>
+            <span class="custom-checkbox__label">
+              <img src="./img/ck.svg" alt="">
+            </span>
+          </label>
+
+          <label class="custom-checkbox form__checkbox">
+            <input class="custom-checkbox__checkbox" type="checkbox" name="">
+            <span class="custom-checkbox__span"></span>
+            <span class="custom-checkbox__label">
+              <img src="./img/shop3.svg" alt="">
+            </span>
+          </label>
+
+          <label class="custom-checkbox form__checkbox">
+            <input class="custom-checkbox__checkbox" type="checkbox" name="">
+            <span class="custom-checkbox__span"></span>
+            <span class="custom-checkbox__label">
+              <img src="./img/inwear.svg" alt="">
+            </span>
+          </label>
+
+          <label class="custom-checkbox form__checkbox">
+            <input class="custom-checkbox__checkbox" type="checkbox" name="">
+            <span class="custom-checkbox__span"></span>
+            <span class="custom-checkbox__label">
+              <img src="./img/clarks.svg" alt="">
+            </span>
+          </label>
+
+          <label class="custom-checkbox form__checkbox">
+            <input class="custom-checkbox__checkbox" type="checkbox" name="">
+            <span class="custom-checkbox__span"></span>
+            <span class="custom-checkbox__label">
+              <img src="./img/reima.svg" alt="">
+            </span>
+          </label>
+
+          <label class="custom-checkbox form__checkbox">
+            <input class="custom-checkbox__checkbox" type="checkbox" name="">
+            <span class="custom-checkbox__span"></span>
+            <span class="custom-checkbox__label">
+              <img src="./img/markis.svg" alt="">
+            </span>
+          </label>
+
+          <label class="custom-checkbox form__checkbox">
+            <input class="custom-checkbox__checkbox" type="checkbox" name="">
+            <span class="custom-checkbox__span"></span>
+            <span class="custom-checkbox__label">
+              <img src="./img/soho.svg" alt="">
+            </span>
+          </label>
+
+          <label class="custom-checkbox form__checkbox">
+            <input class="custom-checkbox__checkbox" type="checkbox" name="">
+            <span class="custom-checkbox__span"></span>
+            <span class="custom-checkbox__label">
+              <img src="./img/mexx.svg" alt="">
+            </span>
+          </label>
+
+          <label class="custom-checkbox form__checkbox">
+            <input class="custom-checkbox__checkbox" type="checkbox" name="">
+            <span class="custom-checkbox__span"></span>
+            <span class="custom-checkbox__label">
+              <img src="./img/truman.svg" alt="">
+            </span>
+          </label>
+
+          <label class="custom-checkbox form__checkbox">
+            <input class="custom-checkbox__checkbox" type="checkbox" name="">
+            <span class="custom-checkbox__span"></span>
+            <span class="custom-checkbox__label">
+              <img src="./img/origami.svg" alt="">
+            </span>
+          </label>
+
+
+        </div>
+      </form>
+
+      <h2 class="title">ЛЮБИМЫЙ БРЕНД</h2>
+      <div class="text-info">Расскажите нам о своих любимых брендах, а мы учтем ваш выбор при составлении индивидуальных
+        предложений</div>
+      <form class="form" action="">
+        <div class="grid-columns-3">
+
+          <label class="custom-checkbox form__checkbox">
+            <input class="custom-checkbox__checkbox" type="checkbox" name="">
+            <span class="custom-checkbox__span"></span>
+            <span class="custom-checkbox__label">CALVIN KLEIN JEANS</span>
+          </label>
+
+          <label class="custom-checkbox form__checkbox">
+            <input class="custom-checkbox__checkbox" type="checkbox" name="">
+            <span class="custom-checkbox__span"></span>
+            <span class="custom-checkbox__label">CALVIN KLEIN JEANS</span>
+          </label>
+
+          <label class="custom-checkbox form__checkbox">
+            <input class="custom-checkbox__checkbox" type="checkbox" name="">
+            <span class="custom-checkbox__span"></span>
+            <span class="custom-checkbox__label">CALVIN KLEIN JEANS</span>
+          </label>
+
+          <label class="custom-checkbox form__checkbox">
+            <input class="custom-checkbox__checkbox" type="checkbox" name="">
+            <span class="custom-checkbox__span"></span>
+            <span class="custom-checkbox__label">UNITED COLORS OF BENETTON</span>
+          </label>
+
+          <label class="custom-checkbox form__checkbox">
+            <input class="custom-checkbox__checkbox" type="checkbox" name="">
+            <span class="custom-checkbox__span"></span>
+            <span class="custom-checkbox__label">UNITED COLORS OF BENETTON</span>
+          </label>
+
+          <label class="custom-checkbox form__checkbox">
+            <input class="custom-checkbox__checkbox" type="checkbox" name="">
+            <span class="custom-checkbox__span"></span>
+            <span class="custom-checkbox__label">UNITED COLORS OF BENETTON</span>
+          </label>
+
+          <label class="custom-checkbox form__checkbox">
+            <input class="custom-checkbox__checkbox" type="checkbox" name="">
+            <span class="custom-checkbox__span"></span>
+            <span class="custom-checkbox__label">REIMA</span>
+          </label>
+
+          <label class="custom-checkbox form__checkbox">
+            <input class="custom-checkbox__checkbox" type="checkbox" name="">
+            <span class="custom-checkbox__span"></span>
+            <span class="custom-checkbox__label">REIMA</span>
+          </label>
+
+          <label class="custom-checkbox form__checkbox">
+            <input class="custom-checkbox__checkbox" type="checkbox" name="">
+            <span class="custom-checkbox__span"></span>
+            <span class="custom-checkbox__label">REIMA</span>
+          </label>
+
+          <label class="custom-checkbox form__checkbox">
+            <input class="custom-checkbox__checkbox" type="checkbox" name="">
+            <span class="custom-checkbox__span"></span>
+            <span class="custom-checkbox__label">STRELLSON</span>
+          </label>
+
+          <label class="custom-checkbox form__checkbox">
+            <input class="custom-checkbox__checkbox" type="checkbox" name="">
+            <span class="custom-checkbox__span"></span>
+            <span class="custom-checkbox__label">STRELLSON</span>
+          </label>
+
+          <label class="custom-checkbox form__checkbox">
+            <input class="custom-checkbox__checkbox" type="checkbox" name="">
+            <span class="custom-checkbox__span"></span>
+            <span class="custom-checkbox__label">STRELLSON</span>
+          </label>
+
+        </div>
+      </form>
+
+      <div class="subscribe">
+        <div class="subscribe__title">ПОДПИШИТЕСЬ НА НАШИ НОВОСТИ</div>
+        <div class="socials">
+          <a href="" target="_blank">
+            <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g id="socials">
+                <rect id="Rectangle 1" width="42" height="42" rx="21" fill="#0077FF" />
+                <path id="Vector"
+                  d="M22.0316 28.35C14.1393 28.35 9.63758 22.832 9.45001 13.65H13.4034C13.5333 20.3894 16.4478 23.244 18.7564 23.8326V13.65H22.4789V19.4623C24.7586 19.2122 27.1538 16.5635 27.9618 13.65H31.6843C31.3798 15.1611 30.7729 16.5918 29.9015 17.8527C29.0301 19.1135 27.9129 20.1775 26.6199 20.978C28.0632 21.7094 29.338 22.7446 30.3602 24.0154C31.3824 25.2861 32.1288 26.7635 32.55 28.35H28.4523C28.0742 26.972 27.3057 25.7385 26.2431 24.804C25.1805 23.8695 23.8711 23.2757 22.4789 23.0969V28.35H22.0316Z"
+                  fill="white" />
+              </g>
+            </svg>
+          </a>
+          <a href="" target="_blank">
+            <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g id="socials">
+                <rect id="Rectangle 1" width="42" height="42" rx="21" fill="#27A6E5" />
+                <path id="Vector"
+                  d="M29.4 13.2323L26.2443 29.7069C26.2443 29.7069 25.8028 30.8491 24.5899 30.3013L17.3088 24.5202L17.2751 24.5031C18.2586 23.5886 25.885 16.4878 26.2183 16.1659C26.7343 15.6674 26.414 15.3706 25.8149 15.7472L14.5496 23.1556L10.2035 21.6413C10.2035 21.6413 9.51958 21.3893 9.45378 20.8415C9.38712 20.2928 10.226 19.9961 10.226 19.9961L27.9438 12.7984C27.9438 12.7984 29.4 12.1358 29.4 13.2323Z"
+                  fill="#FEFEFE" />
+              </g>
+            </svg>
+
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <script src="./js/imask.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
